@@ -1,22 +1,29 @@
 <template>
   <vs-table>
+    <template #header>
+      <vs-input v-model="search" border placeholder="Search" />
+    </template>
     <template #thead>
       <vs-tr>
-        <vs-th> Name </vs-th>
-        <vs-th> Email </vs-th>
-        <vs-th> Id </vs-th>
+        <vs-th
+          v-for="(tr, i) in columns"
+          :key="i"
+          :data="tr"
+          sort
+          @click="proteins = $vs.sortData($event, proteins, 'id')"
+        >
+          {{ tr }}
+        </vs-th>
       </vs-tr>
     </template>
     <template #tbody>
-      <vs-tr :key="i" v-for="(tr, i) in users" :data="tr">
-        <vs-td>
-          {{ tr.name }}
-        </vs-td>
-        <vs-td>
-          {{ tr.email }}
-        </vs-td>
-        <vs-td>
-          {{ tr.id }}
+      <vs-tr
+        v-for="(tr, i) in $vs.getSearch(proteins, search)"
+        :key="i"
+        :data="tr"
+      >
+        <vs-td v-for="(val, kw) in tr" :key="kw">
+          {{ val }}
         </vs-td>
       </vs-tr>
     </template>
@@ -26,7 +33,36 @@
 <script>
 export default {
   data: () => ({
-    users: [
+    search: '',
+    columns: [
+      '廠商',
+      '品名',
+      '單價',
+      '碳水化合物/膳食纖維(g)',
+      '蛋白質(g)',
+      '脂肪(g)',
+      '鈉',
+      'BCAAs(g)',
+      '鈣',
+      '磷',
+      '鎂',
+      '鉀',
+      '氯',
+      '麩胺酸',
+      '鎂',
+      '維生素D(μg)',
+      '維生素B1',
+      '維生素B2',
+      '維生素B6',
+      '維生素B12(μg)',
+      '精氨酸',
+      '牛磺酸',
+      '穀氨酸能',
+      '必要氨基酸',
+      '非必要氨基酸',
+      '甜菜根萃取物',
+    ],
+    proteins: [
       {
         id: 1,
         name: 'Leanne Graham',

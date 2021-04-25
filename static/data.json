@@ -1,0 +1,16 @@
+[
+    {
+      "brand": "Peeta Protein",
+      "link": "Peeta Protein",
+      "name": "Peeta Protein",
+      "price": 1650,
+      "unit": 30,
+      "weight": 35,
+      "protein": 25.2,
+      "fat": 2,
+      "col": 4.2,
+      "na": 97
+    }
+]
+// 35/(unit*weight)*price
+// (35/weight)*protein
