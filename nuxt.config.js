@@ -1,3 +1,5 @@
+import tw from './locales/tw.js'
+
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -35,7 +37,16 @@ export default {
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    'nuxt-i18n',
   ],
+  i18n: {
+    locales: ['tw', 'en'],
+    defaultLocale: 'tw',
+    vueI18n: {
+      fallbackLocale: 'tw',
+      messages: { tw },
+    },
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
@@ -43,7 +54,7 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      lang: 'en',
+      lang: 'zh-Hant-TW',
     },
   },
 
