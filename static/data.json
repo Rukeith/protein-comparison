@@ -1,8 +1,8 @@
 [
   {
     "brand": "Peeta Protein",
-    "link": "https://mart.peeta.tw/products/rich-cocoa-protein",
     "name": "Peeta Protein 乳清蛋白飲 - 馥郁可可風味【Rich-cocoa】",
+    "link": "https://mart.peeta.tw/products/rich-cocoa-protein",
     "price": 1650,
     "serving": 30,
     "weight": 35,
@@ -13,8 +13,8 @@
   },
   {
     "brand": "Simple Protein",
-    "link": "https://www.simpleprotein.tw/products/%E6%BF%83%E7%B8%AE%E4%B9%B3%E6%B8%85%E8%9B%8B%E7%99%BD-%E6%BF%83%E5%8F%AF%E5%8F%AF-20200217152553",
     "name": "濃可可 500g/罐 - Simple Protein 濃縮乳清蛋白",
+    "link": "https://www.simpleprotein.tw/products/%E6%BF%83%E7%B8%AE%E4%B9%B3%E6%B8%85%E8%9B%8B%E7%99%BD-%E6%BF%83%E5%8F%AF%E5%8F%AF-20200217152553",
     "price": 569,
     "serving": 12,
     "weight": 40,
@@ -23,12 +23,14 @@
     "carbohydrates": 36.1,
     "sodium": 110,
     "BCAAs": 12.5,
-    "calcium": 289
+    "others": {
+      "calcium": 289
+    }
   },
   {
     "brand": "Simple Protein",
-    "link": "https://www.simpleprotein.tw/products/%E6%BF%83%E7%B8%AE%E4%B9%B3%E6%B8%85%E8%9B%8B%E7%99%BD-%E9%AB%98%E7%BA%96%E9%BB%91%E5%B7%A7%E5%85%8B%E5%8A%9B%E5%92%96%E5%95%A1",
     "name": "高纖黑巧克力咖啡 7包/盒 - Simple Protein 濃縮乳清蛋白",
+    "link": "https://www.simpleprotein.tw/products/%E6%BF%83%E7%B8%AE%E4%B9%B3%E6%B8%85%E8%9B%8B%E7%99%BD-%E9%AB%98%E7%BA%96%E9%BB%91%E5%B7%A7%E5%85%8B%E5%8A%9B%E5%92%96%E5%95%A1",
     "price": 483,
     "serving": 7,
     "weight": 35,
@@ -37,12 +39,15 @@
     "carbohydrates": 27.4,
     "sodium": 131,
     "BCAAs": 14.1,
-    "calcium": 345
+    "others": {
+      "calcium": 345
+    }
   },
   {
     "brand": "Simple Protein",
-    "link": "https://www.simpleprotein.tw/products/%E6%BF%83%E7%B8%AE%E4%B9%B3%E6%B8%85%E8%9B%8B%E7%99%BD-%E8%8B%B1%E5%BC%8F%E5%A5%B6%E8%8C%B6-20200217171233",
+
     "name": "英式奶茶 460g/袋 - Simple Protein 濃縮乳清蛋白",
+    "link": "https://www.simpleprotein.tw/products/%E6%BF%83%E7%B8%AE%E4%B9%B3%E6%B8%85%E8%9B%8B%E7%99%BD-%E8%8B%B1%E5%BC%8F%E5%A5%B6%E8%8C%B6-20200217171233",
     "price": 529,
     "serving": 13,
     "weight": 35,
@@ -51,12 +56,14 @@
     "carbohydrates": 36.5,
     "sodium": 130,
     "BCAAs": 14.7,
-    "calcium": 341
+    "others": {
+      "calcium": 341
+    }
   },
   {
     "brand": "補體素",
-    "link": "https://www.smad.com.tw/products/protison-max-protein-250g",
     "name": "補體素 80 純乳清蛋白 (粉狀) 250公克",
+    "link": "https://www.smad.com.tw/products/protison-max-protein-250g",
     "price": 390,
     "serving": 50,
     "weight": 5,
@@ -65,16 +72,18 @@
     "carbohydrates": 4.7,
     "sodium": 200,
     "BCAAs": 18.72,
-    "calcium": 565,
-    "磷": 445,
-    "magnesium": 62,
-    "鉀": 483,
-    "氯": 232
+    "others": {
+      "calcium": 565,
+      "phosphorus": 445,
+      "magnesium": 62,
+      "potassium": 483,
+      "氯": 232
+    }
   },
   {
     "brand": "Allin",
-    "link": "https://lufu.pro/index.php?route=product/product&product_id=84",
     "name": "罐裝100%分離式乳清(內附湯匙) - 原味",
+    "link": "https://lufu.pro/index.php?route=product/product&product_id=84",
     "price": 1200,
     "serving": 40,
     "weight": 25,
@@ -85,8 +94,8 @@
   },
   {
     "brand": "Allin",
-    "link": "https://lufu.pro/index.php?route=product/product&product_id=60",
     "name": "芋頭牛奶100%分離式乳清",
+    "link": "https://lufu.pro/index.php?route=product/product&product_id=60",
     "price": 2600,
     "serving": 60,
     "weight": 35,
@@ -97,8 +106,8 @@
   },
   {
     "brand": "果果堅果",
-    "link": "https://www.gogonuts.best/collections/gogonuts-500g/products/unflavoured-500",
     "name": "乳清蛋白-濃縮經典原味(500克/包)",
+    "link": "https://www.gogonuts.best/collections/gogonuts-500g/products/unflavoured-500",
     "price": 250,
     "serving": 20,
     "weight": 25,
@@ -110,8 +119,8 @@
   },
   {
     "brand": "果果堅果",
-    "link": "https://www.gogonuts.best/collections/gogonuts-500g/products/isolate-protein-500",
     "name": "分離乳清蛋白-無調味(500克/包)",
+    "link": "https://www.gogonuts.best/collections/gogonuts-500g/products/isolate-protein-500",
     "price": 399,
     "serving": 20,
     "weight": 25,
@@ -123,8 +132,8 @@
   },
   {
     "brand": "Body Goals",
-    "link": "https://www.bodygoals.com.tw/products/whey-protein-drinks-ziplock-bag-milk-tea",
     "name": "多效乳清蛋白飲 - 大包裝 | 英式奶茶",
+    "link": "https://www.bodygoals.com.tw/products/whey-protein-drinks-ziplock-bag-milk-tea",
     "price": 2400,
     "serving": 60,
     "weight": 31,
@@ -132,14 +141,16 @@
     "fat": 9,
     "carbohydrates": 18.7,
     "sodium": 148,
-    "magnesium": 161,
-    "vitamin_d": 42,
-    "BCAAs": 15.8
+    "BCAAs": 15.8,
+    "others": {
+      "magnesium": 161,
+      "vitamin_d": 42
+    }
   },
   {
     "brand": "Body Goals",
-    "link": "https://www.bodygoals.com.tw/products/multi-effect-pea-protein-drinks-milk-tea-1",
     "name": "全素多效豌豆蛋白飲 - 隨手包 | 馥郁奶茶",
+    "link": "https://www.bodygoals.com.tw/products/multi-effect-pea-protein-drinks-milk-tea-1",
     "price": 60,
     "serving": 1,
     "weight": 31,
@@ -150,8 +161,8 @@
   },
   {
     "brand": "Notorious",
-    "link": "https://notorious-2019.com/detail.aspx?id=234&tid=66",
     "name": "濃縮乳清蛋白-阿薩姆奶茶口味",
+    "link": "https://notorious-2019.com/detail.aspx?id=234&tid=66",
     "price": 1288,
     "serving": 32,
     "weight": 35,
@@ -160,15 +171,17 @@
     "carbohydrates": 12.8,
     "sodium": 250,
     "BCAAs": 16.848,
-    "vitamin_b1": 2.8,
-    "vitamin_b2": 3,
-    "vitamin_b6": 3.8,
-    "vitamin_b12": 5.4
+    "others": {
+      "vitamin_b1": 2.8,
+      "vitamin_b2": 3,
+      "vitamin_b6": 3.8,
+      "vitamin_b12": 5.4
+    }
   },
   {
     "brand": "Notorious",
-    "link": "https://notorious-2019.com/detail.aspx?id=467&tid=67",
     "name": "乳清蛋白粉-野蜂蜜",
+    "link": "https://notorious-2019.com/detail.aspx?id=467&tid=67",
     "price": 1488,
     "serving": 30,
     "weight": 37,
@@ -177,19 +190,21 @@
     "carbohydrates": 13.4,
     "sodium": 250,
     "BCAAs": 19.158,
-    "calcium": 420,
-    "magnesium": 73,
-    "arginine": 1780,
-    "taurine": 100,
-    "glutamate": 14860,
-    "essential-amino_acids": 38284,
-    "non-essential-amino_acids": 41947,
-    "甜菜根萃取物": 100
+    "others": {
+      "calcium": 420,
+      "magnesium": 73,
+      "arginine": 1780,
+      "taurine": 100,
+      "glutamate": 14860,
+      "essential-amino_acids": 38284,
+      "non-essential-amino_acids": 41947,
+      "beetroot_extract": 100
+    }
   },
   {
     "brand": "Notorious",
-    "link": "https://notorious-2019.com/detail.aspx?id=285&tid=80",
     "name": "分離大豆蛋白-復刻花生奶",
+    "link": "https://notorious-2019.com/detail.aspx?id=285&tid=80",
     "price": 1080,
     "serving": 40,
     "weight": 28,
@@ -198,36 +213,38 @@
     "carbohydrates": 7.7,
     "sodium": 980,
     "BCAAs": 12.664,
-    "calcium": 510,
-    "iron": 9,
-    "magnesium": 34,
-    "vitamin_b1": 2.7,
-    "vitamin_b2": 2.8,
-    "vitamin_b6": 3.8,
-    "vitamin_b12": 10.8,
-    "niacin": 43,
-    "pantothenic_acid": 9.9,
-    "folic_acid": 710,
-    "biotin": 270,
-    "啤酒酵素": 250
+    "others": {
+      "calcium": 510,
+      "iron": 9,
+      "magnesium": 34,
+      "vitamin_b1": 2.7,
+      "vitamin_b2": 2.8,
+      "vitamin_b6": 3.8,
+      "vitamin_b12": 10.8,
+      "niacin": 43,
+      "pantothenic_acid": 9.9,
+      "folic_acid": 710,
+      "biotin": 270,
+      "啤酒酵素": 250
+    }
   },
   {
     "brand": "Notorious",
-    "link": "https://notorious-2019.com/detail.aspx?id=412&tid=65",
     "name": "能量乳清蛋白-巧克力牛奶",
+    "link": "https://notorious-2019.com/detail.aspx?id=412&tid=65",
     "price": 988,
     "serving": 13,
     "weight": 86,
     "protein": 33.2,
     "fat": 8.4,
     "carbohydrates": 48.5,
-    "膳食纖維": 6.6,
-    "sodium": 130
+    "sodium": 130,
+    "dietary_fiber": 6.6
   },
   {
     "brand": "Spark Protein",
-    "link": "https://sparkprotein.com/product/spark-pure-%e7%b4%94%e7%94%9f%e4%b9%b3%e5%8d%b3%e6%ba%b6%e4%b9%b3%e6%b8%85%e8%9b%8b%e7%99%bd/",
     "name": "純生乳即溶乳清蛋白",
+    "link": "https://sparkprotein.com/product/spark-pure-%e7%b4%94%e7%94%9f%e4%b9%b3%e5%8d%b3%e6%ba%b6%e4%b9%b3%e6%b8%85%e8%9b%8b%e7%99%bd/",
     "price": 549,
     "serving": 33,
     "weight": 30,
@@ -236,37 +253,41 @@
     "carbohydrates": 4.67,
     "sodium": 179,
     "BCAAs": 18.163,
-    "calcium": 700,
-    "磷": 487,
-    "鉀": 537
+    "others": {
+      "calcium": 700,
+      "phosphorus": 487,
+      "potassium": 537
+    }
   },
   {
     "brand": "Spark Protein",
-    "link": "https://sparkprotein.com/product/spark-shake-1kg-bag/",
     "name": "高纖優蛋白飲（1公斤袋）蜜香紅茶拿鐵",
+    "link": "https://sparkprotein.com/product/spark-shake-1kg-bag/",
     "price": 1350,
     "serving": 33,
     "weight": 30,
     "protein": 66.67,
     "fat": 7,
     "carbohydrates": 16.3,
-    "膳食纖維": 6,
+    "dietary_fiber": 6,
     "sodium": 137,
     "BCAAs": 17.938,
-    "calcium": 429,
-    "vitamin_c": 110,
-    "vitamin_b1": 1.3,
-    "vitamin_b2": 1.3,
-    "vitamin_b6": 1.67,
-    "vitamin_b7": 33, //維克
-    "vitamin_b12": 2.67, //維克
-    "菸鹼酸": 18,
-    "葉酸": 443 // 維克
+    "others": {
+      "calcium": 429,
+      "vitamin_c": 110,
+      "vitamin_b1": 1.3,
+      "vitamin_b2": 1.3,
+      "vitamin_b6": 1.67,
+      "vitamin_b7": 33,
+      "vitamin_b12": 2.67,
+      "niacin": 18,
+      "folic_acid": 443
+    }
   },
   {
     "brand": "Spark Protein",
-    "link": "https://sparkprotein.com/product/spark-pure-%e7%b4%94%e6%a5%b5%e4%bd%8e%e8%84%82%e5%88%86%e9%9b%a2%e4%b9%b3%e6%b8%85%e8%9b%8b%e7%99%bd/",
     "name": "Spark Pure 純極低脂分離乳清蛋白",
+    "link": "https://sparkprotein.com/product/spark-pure-%e7%b4%94%e6%a5%b5%e4%bd%8e%e8%84%82%e5%88%86%e9%9b%a2%e4%b9%b3%e6%b8%85%e8%9b%8b%e7%99%bd/",
     "price": 899,
     "serving": 33,
     "weight": 30,
@@ -275,8 +296,10 @@
     "carbohydrates": 1,
     "sodium": 249,
     "BCAAs": 20.8,
-    "calcium": 413,
-    "磷": 230,
-    "鉀": 523
+    "others": {
+      "calcium": 413,
+      "phosphorus": 230,
+      "potassium": 523
+    }
   }
 ]
