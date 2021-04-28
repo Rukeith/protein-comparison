@@ -98,3 +98,9 @@ export default {
   }),
 }
 </script>
+
+<style>
+.vs-table__tr:hover .vs-table__td {
+  background-color: #fb966e;
+}
+</style>
