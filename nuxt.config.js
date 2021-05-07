@@ -3,11 +3,15 @@ import tw from './locales/tw.js'
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'protein-comparison',
+    title: '高蛋白比較表',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: '高蛋白 乳清蛋白 分離乳清 水解蛋白 水解酪蛋白 蛋白飲 濃縮乳清',
+      },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
@@ -40,7 +44,7 @@ export default {
     'nuxt-i18n',
   ],
   i18n: {
-    locales: ['tw', 'en'],
+    locales: ['tw'],
     defaultLocale: 'tw',
     vueI18n: {
       fallbackLocale: 'tw',
